@@ -14,7 +14,13 @@ import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import axios from 'axios';
 import constants from '../constants.json';
+import Snackbar from '@material-ui/core/Snackbar';
+import MuiAlert from '@material-ui/lab/Alert';
 
+
+function Alert(props) {
+  return <MuiAlert elevation={6} variant="filled" {...props} />;
+}
 
 function Copyright() {
   return (
@@ -55,6 +61,8 @@ export default function SignUp(props) {
   const {history} = props;
   const [email, setEmail] = React.useState("");
   const [password, setPassword] = React.useState("");
+  const [open, setOpen] = React.useState(false);
+
   const loginView = () => {
       history.push(`/login`)
   }
@@ -65,12 +73,24 @@ export default function SignUp(props) {
       email: email,
       password: password
     }).then(result=>{
-      console.log(result);
       history.push(`/login`)
-    }).catch(error=> console.log(error))
-
+    }).catch(
+      handleClick()
+    )
   }
+
+  const handleClose = (event, reason) => {
+    if (reason === 'clickaway') {
+      return;
+    }
+    setOpen(false);
+  };
+  const handleClick = () => {
+    setOpen(true);
+  };
+
   return (
+    <>
     <Container component="main" maxWidth="xs">
       <CssBaseline />
       <div className={classes.paper}>
@@ -141,5 +161,11 @@ export default function SignUp(props) {
         <Copyright />
       </Box>
     </Container>
+    <Snackbar open={open} autoHideDuration={6000} onClose={handleClose}>
+        <Alert onClose={handleClose} severity="error">
+          Email and Password must be 4 characters
+        </Alert>
+      </Snackbar>
+    </>
   );
 }

@@ -1,50 +1,142 @@
 [
     {
       "id":1,
-      "image":"https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p1.PNG?raw=true"
+      "image":"https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p1.PNG?raw=true",
+      "title":"Spider",
+      "author": "Robert De Niro",
+      "param":"wsdfghjasdfaskjdlaskjd asd asljkdasj ldkjasl d dasdjkl asjdlkas jldk"
     },
     {
       "id":2,
-      "image":"https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p2.PNG?raw=true"
+      "image":"https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p2.PNG?raw=true",
+      "title":"Azzi",
+      "author":"Jack Nicholson",
+      "param":"111111"
     },
     {
       "id":3,
-      "image":"https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p3.PNG?raw=true"
+      "image":"https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p3.PNG?raw=true",
+      "title":"Crash Landing On You",
+      "author":"Marlon Brando",
+      "param":"111111"
     },
     {
       "id":4,
-      "image":"https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p4.PNG?raw=true"
+      "image":"https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p4.PNG?raw=true",
+      "title":"Money Game",
+      "author":"Denzel Washington",
+      "param":"111111"
     },
     {
       "id":5,
-      "image":"https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p5.PNG?raw=true"
+      "image":"https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p5.PNG?raw=true",
+      "title":"Touch",
+      "author":"Katharine Hepburn",
+      "param":"111111"
     },
     {
       "id":6,
-      "image":"https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p6.PNG?raw=true"
+      "image":"https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p6.PNG?raw=true",
+      "title":"Queen: Love And War",
+      "author":"Humphrey Bogart",
+      "param":"111111"
     },
     {
       "id":7,
-      "image":"https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p7.PNG?raw=true"
+      "image":"https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p7.PNG?raw=true",
+      "title":"Doctor",
+      "author":"Meryl Streep",
+      "param":"111111"
     },
     {
       "id":8,
-      "image":"https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p8.PNG?raw=true"
+      "image":"https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p8.PNG?raw=true",
+      "title":"Teacher",
+      "author":"Humphrey Bogart",
+      "param":"111111"
     },
     {
       "id":9,
-      "image":"https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p9.PNG?raw=true"
+      "image":"https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p9.PNG?raw=true",
+      "title":"Black",
+      "author":"Jack Nicholson",
+      "param":"111111"
     },
     {
       "id":10,
-      "image":"https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p10.PNG?raw=true"
+      "image":"https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p10.PNG?raw=true",
+      "title":"Dog",
+      "author":"Jack Nicholson",
+      "param":"111111"
     },
     {
       "id":11,
-      "image":"https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p11.PNG?raw=true"
+      "image":"https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p11.PNG?raw=true",
+      "title":"Cat",
+      "author": "Robert De Niro",
+      "param":"111111"
     },
     {
       "id":12,
-      "image":"https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p12.PNG?raw=true"
+      "image":"https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p12.PNG?raw=true",
+      "title":"Lion",
+      "author": "Robert De Niro",
+      "param":"111111"
+    },
+    {
+      "id":13,
+      "image":"https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p13.PNG?raw=true",
+      "title":"Zion",
+      "author": "Robert De Niro",
+      "param":"111111"
+    },
+    {
+      "id":14,
+      "image":"https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p14.PNG?raw=true",
+      "title":"Dioon",
+      "author": "Robert De Niro",
+      "param":"111111"
+    },
+    {
+      "id":15,
+      "image":"https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p15.PNG?raw=true",
+      "title":"Vion",
+      "author": "Robert De Niro",
+      "param":"111111"
+    },
+    {
+      "id":16,
+      "image":"https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p16.PNG?raw=true",
+      "title":"Cion",
+      "author": "Robert De Niro",
+      "param":"111111"
+    },
+    {
+      "id":17,
+      "image":"https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p17.PNG?raw=true",
+      "title":"Nion",
+      "author": "Robert De Niro",
+      "param":"111111"
+    },
+    {
+      "id":18,
+      "image":"https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p18.PNG?raw=true",
+      "title":"Pion",
+      "author": "Robert De Niro",
+      "param":"111111"
+    },
+    {
+      "id":19,
+      "image":"https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p19.PNG?raw=true",
+      "title":"Pion",
+      "author": "Robert De Niro",
+      "param":"111111"
+    },
+    {
+      "id":20,
+      "image":"https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p20.PNG?raw=true",
+      "title":"Cion",
+      "author": "Robert De Niro",
+      "param":"111111"
     }
   ]
